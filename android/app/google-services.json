@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "42092857898",
+    "project_id": "student-marketplace-66768",
+    "storage_bucket": "student-marketplace-66768.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42092857898:android:81ed9352fc4fa75bf7d153",
+        "android_client_info": {
+          "package_name": "com.example.classico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42092857898-ppbc4hd68ej8dl461ak0bnm750ht8c7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcTq50HP2caynxkY1tDATVP_dcE-JKF0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42092857898-ppbc4hd68ej8dl461ak0bnm750ht8c7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
