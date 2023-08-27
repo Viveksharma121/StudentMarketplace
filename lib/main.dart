@@ -1,15 +1,14 @@
 import 'package:classico/firebase_options.dart';
-import 'package:classico/src/features/authentication/controllers/signup_controller.dart';
+// import 'package:classico/src/features/authentication/controllers/signup_controller.dart';
 import 'package:classico/src/features/authentication/screens/welcome/welcome_screen.dart';
-import 'package:classico/src/repository/authntication/exception/auth_repo.dart';
+// import 'package:classico/src/repository/authntication/exception/auth_repo.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform)
-      .then((value) => Get.put(AuthenticationRepository()));
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   // Get.put(SignupController());
   runApp(const MyApp());
 }
